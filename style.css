@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8f1;
+    color: #222;
+}
+
+.header {
+    background-color: #1f6b34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h2 {
+    font-weight: normal;
+    color: #ffe14d;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section h2 {
+    color: #1f6b34;
+}
+ul {
+    line-height: 1.8;
+}
+
+.note {
+    color: #b35c00;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f6b34;
+    color: white;
+}
+.section h3 {
+    color: #1f6b34;
+    border-left: 4px solid #ffe14d;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.embed iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    height: 350px;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form label.choice {
+    font-weight: normal;
+    margin-top: 6px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #1f6b34;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #ddd;
+}
+.menu {
+    background-color: #134d24;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffe14d;
+}
+
+.book-btn {
+    background-color: #ffe14d;
+    color: #134d24;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #1f6b34;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
